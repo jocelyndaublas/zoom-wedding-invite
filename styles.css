@@ -89,17 +89,7 @@
     border-radius: 3px;
     border: 1px solid pink;
   }
-  /*
-  @media (max-width: 700px) {
-    .contact input,
-    .contact textarea {
-      width: 100%;
-    }
-  }
-  */
-  /* .form {
-    padding-left: 35px;
-  } */
+ 
   .nav-links2 {
     flex: 1;
     text-align: right;
@@ -159,3 +149,14 @@
     height:100%;
     width: 100%;
   }
+  /* gallery page*/
+.gallery-body {
+    background-color: rgb(255, 253, 251);
+  }
+  .announcement {
+    font-family: lora;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  /* responsive */
