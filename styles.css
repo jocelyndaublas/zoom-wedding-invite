@@ -45,9 +45,12 @@ ul {
 }
 .nav-list {
   list-style: none;
+  position: absolute;
+  bottom: 10px;
+  /* list-style: none;
   display: flex;
   justify-content: space-evenly;
-  line-height: 5;
+  line-height: 5; */
 }
 .date-list {
   margin:0px;
@@ -87,7 +90,7 @@ ul {
 }
 .invite-intro {
   text-align: center;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 /*----rsvp-------*/
@@ -216,17 +219,20 @@ button {
 section .row{
   height: 100%;
 }
+
+h2.mt-4{
+  margin-top: 100px !important;
+} 
 section .row .col-md-6{
-  padding: 0px;
+  padding: 10px !important;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  /* display: flex;
-  align-items: center;
-  /* justify-content: center; */
-  flex-direction: column; 
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 .col-6 {
   flex-basis: 48%;
@@ -446,11 +452,11 @@ ol, ul {
   
 }
 #covid-19{
-  position: absolute;
-  top: 100%;
+  /* position: absolute; */
+  /* top: 100%; */
   /* background-color: black; */
-  height: 100%;
-  width: 100%;
+  /* height: 100%; */
+  /* width: 50%; */
   transition: top 2s;
 }
 
@@ -570,4 +576,7 @@ ol, ul {
     font-size: 12px;
     /* max-height: 100px; */
     /* overflow: scroll; */
+}
+#back-btn{
+  position: absolute; bottom: 10px; left: 10px; 
 }
