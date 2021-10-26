@@ -157,6 +157,7 @@ ul {
   box-sizing: border-box;
   width: 100%;
 }
+
 button {
   margin-top: 15px;
   /* margin-left: -40px; */
@@ -296,6 +297,13 @@ select {
   /* height: 100%; */
 }
 
+.gifts {
+  text-align: center;
+  max-width: fit-content;
+  max-height: fit-content;
+  padding: 20px 20px;
+  background-color: #fff3f3;
+}
 /* gallery page*/
 .gallery-body {
   background-color: rgb(255, 253, 251);
